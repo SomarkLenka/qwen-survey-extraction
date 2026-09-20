@@ -49,8 +49,11 @@ def main():
     res = json.loads((d / "per_page.json").read_text())
     doc = merge(res, a.source, a.warning)
     (d / "extraction.json").write_text(json.dumps(doc, indent=2))
-    print(f"{d/'extraction.json'}: {doc['station_count']} stations, "
-          f"MD {doc['md_range'][0]:,.2f} -> {doc['md_range'][1]:,.2f}, "
+    if doc["station_count"]:
+        span = f"MD {doc['md_range'][0]:,.2f} -> {doc['md_range'][1]:,.2f}"
+    else:
+        span = "no stations found"
+    print(f"{d/'extraction.json'}: {doc['station_count']} stations, {span}, "
           f"pages {doc['table_pages']}")
 
 

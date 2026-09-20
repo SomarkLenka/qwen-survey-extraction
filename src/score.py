@@ -12,6 +12,9 @@ import csv, json, pathlib, sys
 
 
 def main():
+    if len(sys.argv) != 4 or sys.argv[1] in ('-h', '--help'):
+        print(__doc__)
+        return 0
     per_page, page, gtfile = pathlib.Path(sys.argv[1]), int(sys.argv[2]), pathlib.Path(sys.argv[3])
     res = json.loads(per_page.read_text())
     got = next(r for r in res if r.get("page") == page)["stations"]

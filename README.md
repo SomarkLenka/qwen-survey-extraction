@@ -17,6 +17,7 @@ Two filings, 363 stations, ~170 s of GPU time.
 
 Full analysis in [`docs/FINDINGS.md`](docs/FINDINGS.md).
 Measured throughput and token counts in [`docs/METRICS.md`](docs/METRICS.md).
+**Provisioning a machine or running this in production: [`AGENTS.md`](AGENTS.md).**
 
 ## Performance
 
@@ -37,7 +38,9 @@ rate above includes prefill and image encoding. Per-page recordings are in
 
 ```
 prompts/INSTRUCTIONS.md   extraction spec, used verbatim as the prompt
+AGENTS.md                 machine setup + production runbook
 src/
+  pipeline.py             production entry point: --url / --file / --manifest
   render.py               PDF -> PNG at a given DPI
   extract.py              one request per page -> per_page.json + raw/
   merge.py                per-page -> one record in the spec's schema
@@ -84,7 +87,15 @@ python3 src/score.py    results/rrcot/per_page.json 9 data/ground_truth/rrcot_p0
 python3 src/metrics.py && python3 src/report_metrics.py
 ```
 
-Requires `pymupdf`. Source PDFs are gitignored.
+Or run the whole thing end to end, by URL or path:
+
+```bash
+python3 src/pipeline.py --file RRCOT_COVER_SHEET.pdf
+python3 src/pipeline.py --url  https://webapps.rrc.state.tx.us/dpimages/img/...
+python3 src/pipeline.py --manifest jobs.jsonl --out out
+```
+
+Requires `pymupdf`. Source PDFs and `out/` are gitignored.
 
 ## Gotcha: GPU lost inside a container
 
