@@ -1,0 +1,248 @@
+{
+  "environment": {
+    "model": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+    "server": "vLLM v0.19.0 (vllm/vllm-openai:v0.19.0)",
+    "gpu": "1x NVIDIA H200 141GB",
+    "dtype": "bfloat16",
+    "max_model_len": 65536,
+    "max_num_seqs": 4,
+    "gpu_memory_utilization": 0.9,
+    "render_dpi": 200,
+    "temperature": 0,
+    "requests": "non-streaming, one per page, sequential",
+    "model_load_time_s": 360,
+    "ttft_measured": false
+  },
+  "documents": [
+    {
+      "document": "RRCOT_COVER_SHEET.pdf",
+      "pages": 14,
+      "station_table_pages": 8,
+      "stations_extracted": 185,
+      "wall_clock_s": 87.4,
+      "wall_clock_s_per_page": 6.24,
+      "prompt_tokens": 66804,
+      "prompt_tokens_per_page": 4772,
+      "completion_tokens": 16996,
+      "completion_tokens_per_page": 1214,
+      "total_tokens": 83800,
+      "output_tok_per_s_end_to_end": 194.5,
+      "table_pages_only": {
+        "wall_clock_s": 81.0,
+        "completion_tokens": 16055,
+        "output_tok_per_s": 198.2,
+        "ms_per_station": 438,
+        "output_tokens_per_station": 87
+      },
+      "per_page": [
+        {
+          "page": 1,
+          "page_type": "header",
+          "stations": 0,
+          "secs": 0.9,
+          "prompt_tokens": 4771,
+          "completion_tokens": 176
+        },
+        {
+          "page": 2,
+          "page_type": "header",
+          "stations": 0,
+          "secs": 1.1,
+          "prompt_tokens": 4771,
+          "completion_tokens": 134
+        },
+        {
+          "page": 3,
+          "page_type": "plat",
+          "stations": 1,
+          "secs": 1.6,
+          "prompt_tokens": 4771,
+          "completion_tokens": 234
+        },
+        {
+          "page": 4,
+          "page_type": "header",
+          "stations": 0,
+          "secs": 1.0,
+          "prompt_tokens": 4771,
+          "completion_tokens": 117
+        },
+        {
+          "page": 5,
+          "page_type": "other",
+          "stations": 0,
+          "secs": 0.7,
+          "prompt_tokens": 4771,
+          "completion_tokens": 146
+        },
+        {
+          "page": 6,
+          "page_type": "station_table",
+          "stations": 19,
+          "secs": 8.1,
+          "prompt_tokens": 4771,
+          "completion_tokens": 1588
+        },
+        {
+          "page": 7,
+          "page_type": "station_table",
+          "stations": 26,
+          "secs": 10.6,
+          "prompt_tokens": 4771,
+          "completion_tokens": 2106
+        },
+        {
+          "page": 8,
+          "page_type": "station_table",
+          "stations": 25,
+          "secs": 10.7,
+          "prompt_tokens": 4771,
+          "completion_tokens": 2132
+        },
+        {
+          "page": 9,
+          "page_type": "station_table",
+          "stations": 27,
+          "secs": 11.7,
+          "prompt_tokens": 4771,
+          "completion_tokens": 2329
+        },
+        {
+          "page": 10,
+          "page_type": "station_table",
+          "stations": 27,
+          "secs": 11.9,
+          "prompt_tokens": 4773,
+          "completion_tokens": 2378
+        },
+        {
+          "page": 11,
+          "page_type": "station_table",
+          "stations": 27,
+          "secs": 11.9,
+          "prompt_tokens": 4773,
+          "completion_tokens": 2372
+        },
+        {
+          "page": 12,
+          "page_type": "station_table",
+          "stations": 27,
+          "secs": 11.9,
+          "prompt_tokens": 4773,
+          "completion_tokens": 2370
+        },
+        {
+          "page": 13,
+          "page_type": "station_table",
+          "stations": 7,
+          "secs": 4.2,
+          "prompt_tokens": 4773,
+          "completion_tokens": 780
+        },
+        {
+          "page": 14,
+          "page_type": "header",
+          "stations": 0,
+          "secs": 1.1,
+          "prompt_tokens": 4773,
+          "completion_tokens": 134
+        }
+      ]
+    },
+    {
+      "document": "SUR.pdf",
+      "pages": 9,
+      "station_table_pages": 7,
+      "stations_extracted": 178,
+      "wall_clock_s": 81.0,
+      "wall_clock_s_per_page": 9.0,
+      "prompt_tokens": 43068,
+      "prompt_tokens_per_page": 4785,
+      "completion_tokens": 15865,
+      "completion_tokens_per_page": 1763,
+      "total_tokens": 58933,
+      "output_tok_per_s_end_to_end": 195.9,
+      "table_pages_only": {
+        "wall_clock_s": 78.4,
+        "completion_tokens": 15542,
+        "output_tok_per_s": 198.2,
+        "ms_per_station": 440,
+        "output_tokens_per_station": 87
+      },
+      "per_page": [
+        {
+          "page": 1,
+          "page_type": "header",
+          "stations": 0,
+          "secs": 1.4,
+          "prompt_tokens": 4770,
+          "completion_tokens": 176
+        },
+        {
+          "page": 2,
+          "page_type": "station_table",
+          "stations": 22,
+          "secs": 9.4,
+          "prompt_tokens": 4770,
+          "completion_tokens": 1843
+        },
+        {
+          "page": 3,
+          "page_type": "station_table",
+          "stations": 27,
+          "secs": 11.7,
+          "prompt_tokens": 4839,
+          "completion_tokens": 2315
+        },
+        {
+          "page": 4,
+          "page_type": "station_table",
+          "stations": 27,
+          "secs": 11.4,
+          "prompt_tokens": 4770,
+          "completion_tokens": 2270
+        },
+        {
+          "page": 5,
+          "page_type": "station_table",
+          "stations": 27,
+          "secs": 11.6,
+          "prompt_tokens": 4770,
+          "completion_tokens": 2301
+        },
+        {
+          "page": 6,
+          "page_type": "station_table",
+          "stations": 27,
+          "secs": 11.8,
+          "prompt_tokens": 4839,
+          "completion_tokens": 2336
+        },
+        {
+          "page": 7,
+          "page_type": "station_table",
+          "stations": 27,
+          "secs": 12.0,
+          "prompt_tokens": 4770,
+          "completion_tokens": 2387
+        },
+        {
+          "page": 8,
+          "page_type": "station_table",
+          "stations": 21,
+          "secs": 10.5,
+          "prompt_tokens": 4770,
+          "completion_tokens": 2090
+        },
+        {
+          "page": 9,
+          "page_type": "plat",
+          "stations": 0,
+          "secs": 1.2,
+          "prompt_tokens": 4770,
+          "completion_tokens": 147
+        }
+      ]
+    }
+  ]
+}

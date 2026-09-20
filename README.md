@@ -4,74 +4,60 @@ Benchmark of `Qwen/Qwen3-VL-30B-A3B-Instruct` (vLLM, single H200) extracting
 RRC directional-survey station tables from PDF filings, scored against
 hand-transcribed ground truth.
 
-## Result summary
+## Headline
 
-| | `RRCOT_COVER_SHEET.pdf` | `SUR.pdf` |
+Two filings, 363 stations, ~170 s of GPU time.
+
+- **COMPASS filing (vector text, no OCR layer): 162/162 cells exact.** All
+  gates pass. Loadable as-is.
+- **PathFinder filing (rotated raster scan): md/inc/azm/tvd 88/88 exact, but
+  all 44 offset cells wrong.** A two-level spanning header shifts `ns_ft` and
+  `ew_ft` one column left and drops E/W entirely — and **both validation gates
+  pass anyway**, because MD/inc/TVD are correct.
+
+Full analysis in [`docs/FINDINGS.md`](docs/FINDINGS.md).
+Measured throughput and token counts in [`docs/METRICS.md`](docs/METRICS.md).
+
+## Performance
+
+| | RRCOT_COVER_SHEET.pdf | SUR.pdf |
 |---|---|---|
-| Well | EDITH GRAY SCHENDEL USW A 1 | ADAMS UNIT A #1 |
-| API | 42-255-35146 | 42-123-32400 |
-| Vendor format | COMPASS 5000.14 | PathFinder Energy Services |
-| Page type | vector text, **no OCR layer** | rotated 90° raster scan |
-| Stations | 185 (MD 1,018.83 → 22,690.00) | 178 (MD 195.00 → 19,166.00) |
-| MD strictly increasing | pass (0 violations) | pass (0 violations) |
-| TVD integration residual | max 0.17 usft / mean 0.008 | max 0.03 usft / mean 0.004 |
-| Cell-level diff vs ground truth | **162/162 exact** (p9) | **88/88 exact** on md/inc/azm/tvd; **0/44** on offsets |
+| pages | 14 (8 tables) | 9 (7 tables) |
+| stations | 185 | 178 |
+| wall clock | 87.4 s | 81.0 s |
+| prompt / completion tokens | 66,804 / 16,996 | 43,068 / 15,865 |
+| output rate (end-to-end) | 194.5 tok/s | 195.9 tok/s |
+| cost per station | 438 ms, 87 output tokens | 440 ms, 87 output tokens |
 
-Runtime: ~11 s per table page, ~100 s per document, 200 DPI renders.
+Model load was ~360 s. TTFT was not measured (non-streaming requests), so the
+rate above includes prefill and image encoding. Per-page recordings are in
+[`results/metrics.json`](results/metrics.json).
 
-## The important finding: spanning headers break column mapping
+## Layout
 
-On `SUR.pdf` the offset columns are shifted one position left:
-
-| emitted field | column actually read |
-|---|---|
-| `ns_ft` | Vertical Section |
-| `ew_ft` | N/S offset |
-| *(missing)* | E/W offset — dropped |
-
-Root cause is **not** rotation or scan quality. PathFinder's table uses a
-two-level header where `TOTAL Rectangular Offsets` spans two sub-columns
-(N/S and E/W). The model reads the header correctly — it lists both
-`Vertical Section` and `TOTAL Rectangular Offsets` in its `columns` output —
-but allots the spanning label a single column slot. COMPASS uses flat
-single-level headers, which is why `RRCOT_COVER_SHEET.pdf` scored 100%.
-
-**This defect is invisible to the standard validation gates.** MD, inclination
-and TVD are all exactly correct, so MD-monotonicity and TVD-vs-inclination
-integration both pass cleanly (0.03 usft) while the lateral geometry is wrong.
-Catching it requires an independent check such as terminus vs. the plat's
-bottom-hole location.
-
-## Secondary findings
-
-- `SUR.pdf` contains **two surveys** (Gyrodata gyro + PathFinder MWD, tied in
-  at 3718 ft MD). The model reported only `tool: "MWD"` and did not split them.
-- Zero rows were flagged illegible across 363 stations, so the
-  flag-rather-than-guess path is untested by this run.
-- On `RRCOT_COVER_SHEET.pdf`, `operator` returned the survey contractor
-  ("Precision Energy Services") rather than the operator of record
-  (Burlington Resources), and `well_name` absorbed the operator string.
-  Low impact — matching is on API, which was correct.
-- Non-table pages (headers, plats, certification letters) were classified
-  correctly and returned zero stations rather than hallucinating rows.
-
-## Files
-
-| file | contents |
-|---|---|
-| `extract.py` | per-page extraction harness (COMPASS doc) |
-| `extract_sur.py` | same, pointed at the scanned doc |
-| `results.json`, `results_sur.json` | raw per-page output, timings, token counts |
-| `rrcot_extraction.json` | 185 stations, merged, **passes all gates** |
-| `sur_extraction.json` | 178 stations, carries `_WARNING`; **do not load `ns_ft`/`ew_ft`** |
-| `gt_p09.csv`, `gt_s02.csv` | hand transcriptions used for scoring |
-| `raw_p*.txt`, `raw_s*.txt` | unparsed model responses |
+```
+prompts/INSTRUCTIONS.md   extraction spec, used verbatim as the prompt
+src/
+  render.py               PDF -> PNG at a given DPI
+  extract.py              one request per page -> per_page.json + raw/
+  merge.py                per-page -> one record in the spec's schema
+  validate.py             MD monotonicity + TVD integration gates
+  score.py                cell-level diff against a ground-truth CSV
+  metrics.py              timings/token usage -> results/metrics.json
+  report_metrics.py       results/metrics.json -> docs/METRICS.md
+data/ground_truth/        hand transcriptions used for scoring
+results/<doc>/
+  per_page.json           per-page output incl. _secs and _usage
+  extraction.json         merged, in the spec's schema
+  raw/                    unparsed model responses
+results/metrics.json      measured performance, aggregate + per page
+docs/                     FINDINGS.md, METRICS.md
+```
 
 ## Reproducing
 
-Serve the model (the DigitalOcean 1-Click Inference image already ships
-vLLM v0.19.0, which is past the v0.11.0 floor Qwen3-VL needs — no `:latest`
-pull required):
+Serve the model. The DigitalOcean 1-Click Inference image already ships vLLM
+v0.19.0, past the v0.11.0 floor Qwen3-VL needs — no `:latest` pull required:
 
 ```bash
 docker run -d --name qwen3-vl --restart unless-stopped \
@@ -87,17 +73,20 @@ docker run -d --name qwen3-vl --restart unless-stopped \
   --limit-mm-per-prompt '{"image":8,"video":0}'
 ```
 
-Render pages to PNG at 200 DPI into `pages/` (PyMuPDF), then:
+Then:
 
 ```bash
-python3 extract.py        # all pages
-python3 extract.py 1,5    # specific pages
+python3 src/render.py  RRCOT_COVER_SHEET.pdf pages     p 200
+python3 src/extract.py --pages pages --prefix p --out results/rrcot
+python3 src/merge.py   --in results/rrcot --source RRCOT_COVER_SHEET.pdf
+python3 src/validate.py results/rrcot/extraction.json
+python3 src/score.py    results/rrcot/per_page.json 9 data/ground_truth/rrcot_p09.csv
+python3 src/metrics.py && python3 src/report_metrics.py
 ```
 
-`INSTRUCTIONS.md` (the extraction spec, kept outside this repo) is read at
-runtime and used as the prompt.
+Requires `pymupdf`. Source PDFs are gitignored.
 
-### Gotcha: GPU lost inside a container
+## Gotcha: GPU lost inside a container
 
 If a container reports `Failed to initialize NVML: Unknown Error` and
 `torch.cuda.is_available() == False`, it raced with a previous container's
