@@ -1,0 +1,23 @@
+{
+  "page": 13,
+  "page_type": "station_table",
+  "api": null,
+  "well_name": "Edith Gray-Schendel USW A 1",
+  "operator": "ConocoPhillips Eagle Ford Gold Data",
+  "north_ref": "grid",
+  "tool": "MWD",
+  "kb_elevation": "32.5",
+  "datum_zone": "NAD27 State Plane",
+  "report_date": "5/15/2017",
+  "md_range": [22206.0, 22690.0],
+  "columns": ["MD (usft)", "Inc (°)", "Azi (azimuth) (°)", "TVD (usft)", "N/S (usft)", "E/W (usft)", "DLeg (°/100usft)", "V. Sec (usft)", "Closure Distance (usft)", "Closure Azimuth (°)"],
+  "stations": [
+    {"md": 22206.0, "inc": 88.3, "azm": 132.35, "tvd": 12934.3, "ns_ft": -5404.02, "ew_ft": 7870.72, "flags": []},
+    {"md": 22301.0, "inc": 88.05, "azm": 132.62, "tvd": 12937.33, "ns_ft": -5468.15, "ew_ft": 7940.74, "flags": []},
+    {"md": 22395.0, "inc": 88.3, "azm": 130.49, "tvd": 12940.32, "ns_ft": -5530.47, "ew_ft": 8011.04, "flags": []},
+    {"md": 22489.0, "inc": 88.98, "azm": 130.17, "tvd": 12942.55, "ns_ft": -5591.29, "ew_ft": 8082.68, "flags": []},
+    {"md": 22584.0, "inc": 90.6, "azm": 132.81, "tvd": 12942.9, "ns_ft": -5654.21, "ew_ft": 8153.83, "flags": []},
+    {"md": 22664.0, "inc": 89.52, "azm": 130.54, "tvd": 12942.82, "ns_ft": -5707.4, "ew_ft": 8213.58, "flags": []},
+    {"md": 22690.0, "inc": 89.52, "azm": 130.54, "tvd": 12943.03, "ns_ft": -5724.3, "ew_ft": 8233.34, "flags": []}
+  ]
+}

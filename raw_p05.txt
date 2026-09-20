@@ -1,0 +1,15 @@
+{
+  "page": 5,
+  "page_type": "other",
+  "api": null,
+  "well_name": "Edith Gray-Schendel USW A 1",
+  "operator": "ConocoPhillips Eagle Ford Gold Data",
+  "north_ref": "grid",
+  "tool": "MWD",
+  "kb_elevation": "32.5",
+  "datum_zone": "NAD27, Texas South Central 4204",
+  "report_date": "5/15/2017",
+  "md_range": [0.0, 0.0],
+  "columns": [],
+  "stations": []
+}

@@ -1,0 +1,2135 @@
+[
+  {
+    "page": 1,
+    "page_type": "header",
+    "api": "42-255-35146",
+    "well_name": "BURLINGTON RESOURCES O & G CO LP EDITH GRAY SCHENDEL USW A1",
+    "operator": "Precision Energy Services, Inc.",
+    "north_ref": null,
+    "tool": "MWD",
+    "kb_elevation": null,
+    "datum_zone": null,
+    "report_date": "May 15, 2017",
+    "md_range": [
+      1162,
+      22664
+    ],
+    "columns": [
+      "Name & Title Of Surveyor",
+      "Well Number",
+      "Surveyed Depths",
+      "Dates Performed",
+      "Type of Survey"
+    ],
+    "stations": [],
+    "_secs": 0.9,
+    "_usage": {
+      "prompt_tokens": 4771,
+      "total_tokens": 4947,
+      "completion_tokens": 176,
+      "prompt_tokens_details": null
+    }
+  },
+  {
+    "page": 2,
+    "page_type": "header",
+    "api": "42-255-35146",
+    "well_name": "EDITH GRAY SCHENDEL USW A",
+    "operator": "BURLINGTON RESOURCES O & G CO LP",
+    "north_ref": null,
+    "tool": null,
+    "kb_elevation": null,
+    "datum_zone": null,
+    "report_date": "Dec 02, 2016",
+    "md_range": [
+      null,
+      null
+    ],
+    "columns": [],
+    "stations": [],
+    "_secs": 1.1,
+    "_usage": {
+      "prompt_tokens": 4771,
+      "total_tokens": 4905,
+      "completion_tokens": 134,
+      "prompt_tokens_details": null
+    }
+  },
+  {
+    "page": 3,
+    "page_type": "plat",
+    "api": null,
+    "well_name": "EDITH GRAY-SCHENDEL USW A #1",
+    "operator": "BURLINGTON RESOURCES O & G CO LP",
+    "north_ref": "grid",
+    "tool": null,
+    "kb_elevation": null,
+    "datum_zone": "NAD27 State Plane, South Central Zone, US",
+    "report_date": "09/26/2016",
+    "md_range": [
+      22690,
+      22690
+    ],
+    "columns": [
+      "MD",
+      "TVD",
+      "AZIMUTH"
+    ],
+    "stations": [
+      {
+        "md": 22690,
+        "inc": null,
+        "azm": 12943.03,
+        "tvd": 12943.03,
+        "ns_ft": null,
+        "ew_ft": null,
+        "flags": [
+          "illegible"
+        ]
+      }
+    ],
+    "_secs": 1.6,
+    "_usage": {
+      "prompt_tokens": 4771,
+      "total_tokens": 5005,
+      "completion_tokens": 234,
+      "prompt_tokens_details": null
+    }
+  },
+  {
+    "page": 4,
+    "page_type": "header",
+    "api": null,
+    "well_name": "Edith Gray-Schendel USW A 1",
+    "operator": "ConocoPhillips",
+    "north_ref": null,
+    "tool": null,
+    "kb_elevation": null,
+    "datum_zone": null,
+    "report_date": "15 May, 2017",
+    "md_range": [
+      null,
+      null
+    ],
+    "columns": [],
+    "stations": [],
+    "_secs": 1.0,
+    "_usage": {
+      "prompt_tokens": 4771,
+      "total_tokens": 4888,
+      "completion_tokens": 117,
+      "prompt_tokens_details": null
+    }
+  },
+  {
+    "page": 5,
+    "page_type": "other",
+    "api": null,
+    "well_name": "Edith Gray-Schendel USW A 1",
+    "operator": "ConocoPhillips Eagle Ford Gold Data",
+    "north_ref": "grid",
+    "tool": "MWD",
+    "kb_elevation": "32.5",
+    "datum_zone": "NAD27, Texas South Central 4204",
+    "report_date": "5/15/2017",
+    "md_range": [
+      0.0,
+      0.0
+    ],
+    "columns": [],
+    "stations": [],
+    "_secs": 0.7,
+    "_usage": {
+      "prompt_tokens": 4771,
+      "total_tokens": 4917,
+      "completion_tokens": 146,
+      "prompt_tokens_details": null
+    }
+  },
+  {
+    "page": 6,
+    "page_type": "station_table",
+    "api": null,
+    "well_name": "Edith Gray-Schendel USW A 1",
+    "operator": "ConocoPhillips Eagle Ford Gold Data",
+    "north_ref": "Grid",
+    "tool": "MWD",
+    "kb_elevation": "32.5'",
+    "datum_zone": "NAD27 State Plane",
+    "report_date": "5/12/2017",
+    "md_range": [
+      1018.83,
+      4030.0
+    ],
+    "columns": [
+      "MD (usft)",
+      "Inc (\u00b0)",
+      "Azi (azimuth) (\u00b0)",
+      "TVD (usft)",
+      "N/S (usft)",
+      "E/W (usft)",
+      "DLeg (\u00b0/100usft)",
+      "V. Sec (usft)",
+      "Closure Distance (usft)",
+      "Closure Azimuth (\u00b0)"
+    ],
+    "stations": [
+      {
+        "md": 1018.83,
+        "inc": 1.4,
+        "azm": 0.62,
+        "tvd": 1018.55,
+        "ns_ft": 22.11,
+        "ew_ft": 5.66,
+        "flags": []
+      },
+      {
+        "md": 1162.0,
+        "inc": 1.6,
+        "azm": 11.18,
+        "tvd": 1161.67,
+        "ns_ft": 25.82,
+        "ew_ft": 6.06,
+        "flags": []
+      },
+      {
+        "md": 1350.0,
+        "inc": 1.6,
+        "azm": 40.49,
+        "tvd": 1349.6,
+        "ns_ft": 30.39,
+        "ew_ft": 8.27,
+        "flags": []
+      },
+      {
+        "md": 1538.0,
+        "inc": 1.28,
+        "azm": 43.56,
+        "tvd": 1537.54,
+        "ns_ft": 33.91,
+        "ew_ft": 11.43,
+        "flags": []
+      },
+      {
+        "md": 1727.0,
+        "inc": 1.26,
+        "azm": 38.9,
+        "tvd": 1726.49,
+        "ns_ft": 37.06,
+        "ew_ft": 14.19,
+        "flags": []
+      },
+      {
+        "md": 1821.0,
+        "inc": 1.44,
+        "azm": 33.56,
+        "tvd": 1820.47,
+        "ns_ft": 38.84,
+        "ew_ft": 15.49,
+        "flags": []
+      },
+      {
+        "md": 2009.0,
+        "inc": 1.5,
+        "azm": 34.63,
+        "tvd": 2008.4,
+        "ns_ft": 42.84,
+        "ew_ft": 18.19,
+        "flags": []
+      },
+      {
+        "md": 2197.0,
+        "inc": 1.54,
+        "azm": 21.09,
+        "tvd": 2196.34,
+        "ns_ft": 47.22,
+        "ew_ft": 20.5,
+        "flags": []
+      },
+      {
+        "md": 2386.0,
+        "inc": 0.69,
+        "azm": 337.66,
+        "tvd": 2385.3,
+        "ns_ft": 50.64,
+        "ew_ft": 20.98,
+        "flags": []
+      },
+      {
+        "md": 2574.0,
+        "inc": 0.93,
+        "azm": 325.16,
+        "tvd": 2573.29,
+        "ns_ft": 52.94,
+        "ew_ft": 19.68,
+        "flags": []
+      },
+      {
+        "md": 2762.0,
+        "inc": 0.53,
+        "azm": 142.38,
+        "tvd": 2761.28,
+        "ns_ft": 53.5,
+        "ew_ft": 19.34,
+        "flags": []
+      },
+      {
+        "md": 2856.0,
+        "inc": 0.66,
+        "azm": 133.6,
+        "tvd": 2855.27,
+        "ns_ft": 52.79,
+        "ew_ft": 20.0,
+        "flags": []
+      },
+      {
+        "md": 3045.0,
+        "inc": 1.03,
+        "azm": 145.63,
+        "tvd": 3044.25,
+        "ns_ft": 50.63,
+        "ew_ft": 21.74,
+        "flags": []
+      },
+      {
+        "md": 3233.0,
+        "inc": 0.6,
+        "azm": 286.82,
+        "tvd": 3232.24,
+        "ns_ft": 49.52,
+        "ew_ft": 21.75,
+        "flags": []
+      },
+      {
+        "md": 3421.0,
+        "inc": 0.22,
+        "azm": 333.78,
+        "tvd": 3420.24,
+        "ns_ft": 50.13,
+        "ew_ft": 20.65,
+        "flags": []
+      },
+      {
+        "md": 3609.0,
+        "inc": 0.38,
+        "azm": 322.99,
+        "tvd": 3608.24,
+        "ns_ft": 50.95,
+        "ew_ft": 20.12,
+        "flags": []
+      },
+      {
+        "md": 3797.0,
+        "inc": 0.53,
+        "azm": 316.13,
+        "tvd": 3796.23,
+        "ns_ft": 52.08,
+        "ew_ft": 19.14,
+        "flags": []
+      },
+      {
+        "md": 3986.0,
+        "inc": 0.69,
+        "azm": 346.23,
+        "tvd": 3985.22,
+        "ns_ft": 53.81,
+        "ew_ft": 18.26,
+        "flags": []
+      },
+      {
+        "md": 4030.0,
+        "inc": 0.75,
+        "azm": 335.97,
+        "tvd": 4029.22,
+        "ns_ft": 54.33,
+        "ew_ft": 18.08,
+        "flags": []
+      }
+    ],
+    "_secs": 8.1,
+    "_usage": {
+      "prompt_tokens": 4771,
+      "total_tokens": 6359,
+      "completion_tokens": 1588,
+      "prompt_tokens_details": null
+    }
+  },
+  {
+    "page": 7,
+    "page_type": "station_table",
+    "api": null,
+    "well_name": "Edith Gray-Schendel USW A 1",
+    "operator": "ConocoPhillips Eagle Ford Gold Data",
+    "north_ref": "Grid",
+    "tool": "MWD",
+    "kb_elevation": "32.5'",
+    "datum_zone": "NAD27 State Plane",
+    "report_date": "5/15/2017",
+    "md_range": [
+      4230.0,
+      8937.0
+    ],
+    "columns": [
+      "MD (usft)",
+      "Inc (\u00b0)",
+      "Azi (azimuth) (\u00b0)",
+      "TVD (usft)",
+      "N/S (usft)",
+      "E/W (usft)",
+      "DLeg (\u00b0/100usft)",
+      "V. Sec (usft)",
+      "Closure Distance (usft)",
+      "Closure Azimuth (\u00b0)"
+    ],
+    "stations": [
+      {
+        "md": 4230.0,
+        "inc": 0.09,
+        "azm": 101.55,
+        "tvd": 4229.21,
+        "ns_ft": 55.5,
+        "ew_ft": 17.7,
+        "flags": []
+      },
+      {
+        "md": 4419.0,
+        "inc": 0.56,
+        "azm": 221.84,
+        "tvd": 4418.21,
+        "ns_ft": 54.78,
+        "ew_ft": 17.23,
+        "flags": []
+      },
+      {
+        "md": 4607.0,
+        "inc": 0.09,
+        "azm": 25.95,
+        "tvd": 4606.21,
+        "ns_ft": 54.23,
+        "ew_ft": 16.68,
+        "flags": []
+      },
+      {
+        "md": 4795.0,
+        "inc": 0.28,
+        "azm": 56.94,
+        "tvd": 4794.21,
+        "ns_ft": 54.61,
+        "ew_ft": 17.13,
+        "flags": []
+      },
+      {
+        "md": 4984.0,
+        "inc": 0.31,
+        "azm": 119.55,
+        "tvd": 4983.2,
+        "ns_ft": 54.61,
+        "ew_ft": 17.97,
+        "flags": []
+      },
+      {
+        "md": 5172.0,
+        "inc": 0.53,
+        "azm": 121.88,
+        "tvd": 5171.2,
+        "ns_ft": 53.9,
+        "ew_ft": 19.15,
+        "flags": []
+      },
+      {
+        "md": 5360.0,
+        "inc": 0.35,
+        "azm": 138.14,
+        "tvd": 5359.19,
+        "ns_ft": 53.02,
+        "ew_ft": 20.27,
+        "flags": []
+      },
+      {
+        "md": 5549.0,
+        "inc": 0.06,
+        "azm": 146.23,
+        "tvd": 5548.19,
+        "ns_ft": 52.5,
+        "ew_ft": 20.71,
+        "flags": []
+      },
+      {
+        "md": 5737.0,
+        "inc": 0.31,
+        "azm": 299.81,
+        "tvd": 5736.19,
+        "ns_ft": 52.67,
+        "ew_ft": 20.32,
+        "flags": []
+      },
+      {
+        "md": 5925.0,
+        "inc": 0.38,
+        "azm": 305.79,
+        "tvd": 5924.19,
+        "ns_ft": 53.29,
+        "ew_ft": 19.38,
+        "flags": []
+      },
+      {
+        "md": 6113.0,
+        "inc": 0.38,
+        "azm": 324.34,
+        "tvd": 6112.18,
+        "ns_ft": 54.16,
+        "ew_ft": 18.51,
+        "flags": []
+      },
+      {
+        "md": 6302.0,
+        "inc": 0.37,
+        "azm": 56.08,
+        "tvd": 6301.18,
+        "ns_ft": 55.01,
+        "ew_ft": 18.65,
+        "flags": []
+      },
+      {
+        "md": 6490.0,
+        "inc": 0.49,
+        "azm": 209.45,
+        "tvd": 6489.18,
+        "ns_ft": 54.65,
+        "ew_ft": 18.76,
+        "flags": []
+      },
+      {
+        "md": 6678.0,
+        "inc": 0.44,
+        "azm": 169.2,
+        "tvd": 6677.17,
+        "ns_ft": 53.24,
+        "ew_ft": 18.5,
+        "flags": []
+      },
+      {
+        "md": 6866.0,
+        "inc": 0.53,
+        "azm": 236.32,
+        "tvd": 6865.17,
+        "ns_ft": 52.05,
+        "ew_ft": 17.91,
+        "flags": []
+      },
+      {
+        "md": 7055.0,
+        "inc": 0.25,
+        "azm": 301.56,
+        "tvd": 7054.16,
+        "ns_ft": 51.78,
+        "ew_ft": 16.83,
+        "flags": []
+      },
+      {
+        "md": 7243.0,
+        "inc": 0.51,
+        "azm": 13.0,
+        "tvd": 7242.16,
+        "ns_ft": 52.81,
+        "ew_ft": 16.67,
+        "flags": []
+      },
+      {
+        "md": 7431.0,
+        "inc": 0.44,
+        "azm": 359.48,
+        "tvd": 7430.15,
+        "ns_ft": 54.35,
+        "ew_ft": 16.85,
+        "flags": []
+      },
+      {
+        "md": 7619.0,
+        "inc": 2.47,
+        "azm": 19.34,
+        "tvd": 7618.08,
+        "ns_ft": 58.89,
+        "ew_ft": 18.18,
+        "flags": []
+      },
+      {
+        "md": 7808.0,
+        "inc": 4.54,
+        "azm": 14.91,
+        "tvd": 7806.72,
+        "ns_ft": 69.97,
+        "ew_ft": 21.46,
+        "flags": []
+      },
+      {
+        "md": 7996.0,
+        "inc": 4.85,
+        "azm": 17.88,
+        "tvd": 7994.09,
+        "ns_ft": 84.72,
+        "ew_ft": 25.81,
+        "flags": []
+      },
+      {
+        "md": 8184.0,
+        "inc": 6.72,
+        "azm": 34.7,
+        "tvd": 8181.14,
+        "ns_ft": 101.33,
+        "ew_ft": 34.52,
+        "flags": []
+      },
+      {
+        "md": 8372.0,
+        "inc": 9.83,
+        "azm": 38.8,
+        "tvd": 8367.16,
+        "ns_ft": 122.88,
+        "ew_ft": 50.84,
+        "flags": []
+      },
+      {
+        "md": 8560.0,
+        "inc": 10.49,
+        "azm": 23.92,
+        "tvd": 8552.24,
+        "ns_ft": 151.04,
+        "ew_ft": 67.84,
+        "flags": []
+      },
+      {
+        "md": 8749.0,
+        "inc": 11.36,
+        "azm": 25.41,
+        "tvd": 8737.81,
+        "ns_ft": 183.58,
+        "ew_ft": 82.8,
+        "flags": []
+      },
+      {
+        "md": 8937.0,
+        "inc": 12.75,
+        "azm": 24.98,
+        "tvd": 8921.66,
+        "ns_ft": 219.11,
+        "ew_ft": 99.51,
+        "flags": []
+      }
+    ],
+    "_secs": 10.6,
+    "_usage": {
+      "prompt_tokens": 4771,
+      "total_tokens": 6877,
+      "completion_tokens": 2106,
+      "prompt_tokens_details": null
+    }
+  },
+  {
+    "page": 8,
+    "page_type": "station_table",
+    "api": null,
+    "well_name": "Edith Gray-Schendel USW A 1",
+    "operator": "ConocoPhillips Eagle Ford Gold Data",
+    "north_ref": "grid",
+    "tool": "MWD",
+    "kb_elevation": "32.5'",
+    "datum_zone": "NAD27 State Plane",
+    "report_date": "5/15/2017",
+    "md_range": [
+      9125.0,
+      12608.0
+    ],
+    "columns": [
+      "MD (usft)",
+      "Inc (\u00b0)",
+      "Azi (azimuth) (\u00b0)",
+      "TVD (usft)",
+      "N/S (usft)",
+      "E/W (usft)",
+      "DLeg (\u00b0/100usft)",
+      "V. Sec (usft)",
+      "Closure Distance (usft)",
+      "Closure Azimuth (\u00b0)"
+    ],
+    "stations": [
+      {
+        "md": 9125.0,
+        "inc": 14.76,
+        "azm": 29.25,
+        "tvd": 9104.27,
+        "ns_ft": 258.82,
+        "ew_ft": 119.97,
+        "flags": []
+      },
+      {
+        "md": 9314.0,
+        "inc": 14.53,
+        "azm": 17.88,
+        "tvd": 9287.17,
+        "ns_ft": 302.4,
+        "ew_ft": 139.02,
+        "flags": []
+      },
+      {
+        "md": 9502.0,
+        "inc": 15.4,
+        "azm": 24.53,
+        "tvd": 9468.8,
+        "ns_ft": 347.55,
+        "ew_ft": 156.62,
+        "flags": []
+      },
+      {
+        "md": 9690.0,
+        "inc": 15.08,
+        "azm": 26.38,
+        "tvd": 9650.19,
+        "ns_ft": 392.17,
+        "ew_ft": 177.85,
+        "flags": []
+      },
+      {
+        "md": 9878.0,
+        "inc": 15.32,
+        "azm": 24.18,
+        "tvd": 9831.62,
+        "ns_ft": 436.74,
+        "ew_ft": 198.89,
+        "flags": []
+      },
+      {
+        "md": 10067.0,
+        "inc": 15.17,
+        "azm": 24.88,
+        "tvd": 10013.96,
+        "ns_ft": 481.95,
+        "ew_ft": 219.52,
+        "flags": []
+      },
+      {
+        "md": 10255.0,
+        "inc": 15.3,
+        "azm": 23.38,
+        "tvd": 10195.36,
+        "ns_ft": 527.03,
+        "ew_ft": 239.72,
+        "flags": []
+      },
+      {
+        "md": 10443.0,
+        "inc": 14.31,
+        "azm": 25.4,
+        "tvd": 10377.12,
+        "ns_ft": 570.79,
+        "ew_ft": 259.53,
+        "flags": []
+      },
+      {
+        "md": 10631.0,
+        "inc": 14.31,
+        "azm": 23.61,
+        "tvd": 10559.28,
+        "ns_ft": 613.07,
+        "ew_ft": 278.8,
+        "flags": []
+      },
+      {
+        "md": 10819.0,
+        "inc": 15.08,
+        "azm": 21.34,
+        "tvd": 10741.13,
+        "ns_ft": 657.14,
+        "ew_ft": 297.0,
+        "flags": []
+      },
+      {
+        "md": 11008.0,
+        "inc": 15.34,
+        "azm": 25.15,
+        "tvd": 10923.52,
+        "ns_ft": 702.67,
+        "ew_ft": 316.57,
+        "flags": []
+      },
+      {
+        "md": 11196.0,
+        "inc": 15.51,
+        "azm": 27.85,
+        "tvd": 11104.75,
+        "ns_ft": 747.4,
+        "ew_ft": 338.89,
+        "flags": []
+      },
+      {
+        "md": 11384.0,
+        "inc": 14.75,
+        "azm": 24.08,
+        "tvd": 11286.24,
+        "ns_ft": 791.48,
+        "ew_ft": 360.39,
+        "flags": []
+      },
+      {
+        "md": 11572.0,
+        "inc": 11.48,
+        "azm": 35.4,
+        "tvd": 11469.34,
+        "ns_ft": 828.6,
+        "ew_ft": 381.0,
+        "flags": []
+      },
+      {
+        "md": 11761.0,
+        "inc": 9.91,
+        "azm": 67.36,
+        "tvd": 11655.21,
+        "ns_ft": 850.21,
+        "ew_ft": 406.93,
+        "flags": []
+      },
+      {
+        "md": 11949.0,
+        "inc": 7.93,
+        "azm": 89.11,
+        "tvd": 11840.98,
+        "ns_ft": 856.64,
+        "ew_ft": 434.84,
+        "flags": []
+      },
+      {
+        "md": 12137.0,
+        "inc": 11.0,
+        "azm": 103.23,
+        "tvd": 12026.42,
+        "ns_ft": 852.73,
+        "ew_ft": 465.28,
+        "flags": []
+      },
+      {
+        "md": 12279.0,
+        "inc": 16.24,
+        "azm": 123.09,
+        "tvd": 12164.45,
+        "ns_ft": 838.78,
+        "ew_ft": 495.14,
+        "flags": []
+      },
+      {
+        "md": 12326.0,
+        "inc": 18.68,
+        "azm": 129.55,
+        "tvd": 12209.29,
+        "ns_ft": 830.39,
+        "ew_ft": 506.45,
+        "flags": []
+      },
+      {
+        "md": 12373.0,
+        "inc": 22.31,
+        "azm": 131.2,
+        "tvd": 12253.31,
+        "ns_ft": 819.72,
+        "ew_ft": 518.97,
+        "flags": []
+      },
+      {
+        "md": 12420.0,
+        "inc": 25.86,
+        "azm": 129.76,
+        "tvd": 12296.21,
+        "ns_ft": 807.28,
+        "ew_ft": 533.57,
+        "flags": []
+      },
+      {
+        "md": 12467.0,
+        "inc": 29.52,
+        "azm": 129.49,
+        "tvd": 12337.82,
+        "ns_ft": 793.36,
+        "ew_ft": 550.39,
+        "flags": []
+      },
+      {
+        "md": 12514.0,
+        "inc": 32.61,
+        "azm": 129.75,
+        "tvd": 12378.07,
+        "ns_ft": 777.89,
+        "ew_ft": 569.07,
+        "flags": []
+      },
+      {
+        "md": 12561.0,
+        "inc": 35.82,
+        "azm": 130.06,
+        "tvd": 12416.93,
+        "ns_ft": 760.94,
+        "ew_ft": 589.34,
+        "flags": []
+      },
+      {
+        "md": 12608.0,
+        "inc": 39.42,
+        "azm": 130.6,
+        "tvd": 12454.16,
+        "ns_ft": 742.37,
+        "ew_ft": 611.2,
+        "flags": []
+      }
+    ],
+    "_secs": 10.7,
+    "_usage": {
+      "prompt_tokens": 4771,
+      "total_tokens": 6903,
+      "completion_tokens": 2132,
+      "prompt_tokens_details": null
+    }
+  },
+  {
+    "page": 9,
+    "page_type": "station_table",
+    "api": null,
+    "well_name": "Edith Gray-Schendel USW A 1",
+    "operator": "ConocoPhillips Eagle Ford Gold Data",
+    "north_ref": "grid",
+    "tool": "MWD",
+    "kb_elevation": "32.5",
+    "datum_zone": "NAD27 State Plane",
+    "report_date": "5/15/2017",
+    "md_range": [
+      12655.0,
+      14491.0
+    ],
+    "columns": [
+      "MD (usft)",
+      "Inc (\u00b0)",
+      "Azi (azimuth) (\u00b0)",
+      "TVD (usft)",
+      "N/S (usft)",
+      "E/W (usft)",
+      "DLeg (\u00b0/100usft)",
+      "V. Sec (usft)",
+      "Closure Distance (usft)",
+      "Closure Azimuth (\u00b0)"
+    ],
+    "stations": [
+      {
+        "md": 12655.0,
+        "inc": 43.38,
+        "azm": 130.39,
+        "tvd": 12489.4,
+        "ns_ft": 722.19,
+        "ew_ft": 634.83,
+        "flags": []
+      },
+      {
+        "md": 12702.0,
+        "inc": 46.71,
+        "azm": 129.83,
+        "tvd": 12522.61,
+        "ns_ft": 700.77,
+        "ew_ft": 660.27,
+        "flags": []
+      },
+      {
+        "md": 12749.0,
+        "inc": 50.01,
+        "azm": 128.82,
+        "tvd": 12553.83,
+        "ns_ft": 678.52,
+        "ew_ft": 687.44,
+        "flags": []
+      },
+      {
+        "md": 12796.0,
+        "inc": 54.4,
+        "azm": 127.48,
+        "tvd": 12582.63,
+        "ns_ft": 655.6,
+        "ew_ft": 716.65,
+        "flags": []
+      },
+      {
+        "md": 12843.0,
+        "inc": 58.62,
+        "azm": 128.06,
+        "tvd": 12608.56,
+        "ns_ft": 631.59,
+        "ew_ft": 747.62,
+        "flags": []
+      },
+      {
+        "md": 12891.0,
+        "inc": 61.97,
+        "azm": 128.26,
+        "tvd": 12632.34,
+        "ns_ft": 605.83,
+        "ew_ft": 780.4,
+        "flags": []
+      },
+      {
+        "md": 12938.0,
+        "inc": 64.93,
+        "azm": 128.97,
+        "tvd": 12653.35,
+        "ns_ft": 579.6,
+        "ew_ft": 813.25,
+        "flags": []
+      },
+      {
+        "md": 12985.0,
+        "inc": 68.16,
+        "azm": 129.44,
+        "tvd": 12672.05,
+        "ns_ft": 552.34,
+        "ew_ft": 846.65,
+        "flags": []
+      },
+      {
+        "md": 13032.0,
+        "inc": 72.15,
+        "azm": 130.17,
+        "tvd": 12688.0,
+        "ns_ft": 524.05,
+        "ew_ft": 880.6,
+        "flags": []
+      },
+      {
+        "md": 13079.0,
+        "inc": 75.89,
+        "azm": 130.76,
+        "tvd": 12700.94,
+        "ns_ft": 494.73,
+        "ew_ft": 914.97,
+        "flags": []
+      },
+      {
+        "md": 13126.0,
+        "inc": 79.12,
+        "azm": 130.9,
+        "tvd": 12711.11,
+        "ns_ft": 464.73,
+        "ew_ft": 949.69,
+        "flags": []
+      },
+      {
+        "md": 13173.0,
+        "inc": 82.54,
+        "azm": 130.86,
+        "tvd": 12718.6,
+        "ns_ft": 434.37,
+        "ew_ft": 984.76,
+        "flags": []
+      },
+      {
+        "md": 13220.0,
+        "inc": 85.4,
+        "azm": 130.8,
+        "tvd": 12723.53,
+        "ns_ft": 403.81,
+        "ew_ft": 1020.13,
+        "flags": []
+      },
+      {
+        "md": 13267.0,
+        "inc": 88.29,
+        "azm": 132.0,
+        "tvd": 12726.12,
+        "ns_ft": 372.78,
+        "ew_ft": 1055.32,
+        "flags": []
+      },
+      {
+        "md": 13361.0,
+        "inc": 87.93,
+        "azm": 130.84,
+        "tvd": 12729.22,
+        "ns_ft": 310.63,
+        "ew_ft": 1125.77,
+        "flags": []
+      },
+      {
+        "md": 13455.0,
+        "inc": 88.12,
+        "azm": 130.52,
+        "tvd": 12732.46,
+        "ns_ft": 249.39,
+        "ew_ft": 1197.02,
+        "flags": []
+      },
+      {
+        "md": 13550.0,
+        "inc": 87.8,
+        "azm": 127.33,
+        "tvd": 12735.84,
+        "ns_ft": 189.75,
+        "ew_ft": 1270.87,
+        "flags": []
+      },
+      {
+        "md": 13644.0,
+        "inc": 87.81,
+        "azm": 128.89,
+        "tvd": 12739.44,
+        "ns_ft": 131.78,
+        "ew_ft": 1344.77,
+        "flags": []
+      },
+      {
+        "md": 13738.0,
+        "inc": 88.49,
+        "azm": 129.71,
+        "tvd": 12742.48,
+        "ns_ft": 72.27,
+        "ew_ft": 1417.47,
+        "flags": []
+      },
+      {
+        "md": 13832.0,
+        "inc": 88.05,
+        "azm": 129.54,
+        "tvd": 12745.32,
+        "ns_ft": 12.35,
+        "ew_ft": 1489.84,
+        "flags": []
+      },
+      {
+        "md": 13926.0,
+        "inc": 86.31,
+        "azm": 128.6,
+        "tvd": 12749.94,
+        "ns_ft": -46.82,
+        "ew_ft": 1562.73,
+        "flags": []
+      },
+      {
+        "md": 14020.0,
+        "inc": 87.63,
+        "azm": 132.85,
+        "tvd": 12754.91,
+        "ns_ft": -108.05,
+        "ew_ft": 1633.85,
+        "flags": []
+      },
+      {
+        "md": 14114.0,
+        "inc": 88.43,
+        "azm": 132.05,
+        "tvd": 12758.14,
+        "ns_ft": -171.46,
+        "ew_ft": 1703.17,
+        "flags": []
+      },
+      {
+        "md": 14208.0,
+        "inc": 88.17,
+        "azm": 131.77,
+        "tvd": 12760.93,
+        "ns_ft": -234.22,
+        "ew_ft": 1773.09,
+        "flags": []
+      },
+      {
+        "md": 14302.0,
+        "inc": 88.49,
+        "azm": 129.05,
+        "tvd": 12763.67,
+        "ns_ft": -295.12,
+        "ew_ft": 1844.63,
+        "flags": []
+      },
+      {
+        "md": 14396.0,
+        "inc": 88.05,
+        "azm": 128.06,
+        "tvd": 12766.51,
+        "ns_ft": -353.68,
+        "ew_ft": 1918.1,
+        "flags": []
+      },
+      {
+        "md": 14491.0,
+        "inc": 88.36,
+        "azm": 131.31,
+        "tvd": 12769.49,
+        "ns_ft": -414.31,
+        "ew_ft": 1991.16,
+        "flags": []
+      }
+    ],
+    "_secs": 11.7,
+    "_usage": {
+      "prompt_tokens": 4771,
+      "total_tokens": 7100,
+      "completion_tokens": 2329,
+      "prompt_tokens_details": null
+    }
+  },
+  {
+    "page": 10,
+    "page_type": "station_table",
+    "api": null,
+    "well_name": "Edith Gray-Schendel USW A 1",
+    "operator": "ConocoPhillips Eagle Ford Gold Data",
+    "north_ref": "Grid",
+    "tool": "MWD",
+    "kb_elevation": "32.5'",
+    "datum_zone": "NAD27 State Plane",
+    "report_date": "5/15/2017",
+    "md_range": [
+      14585.0,
+      17031.0
+    ],
+    "columns": [
+      "MD (usft)",
+      "Inc (\u00b0)",
+      "Azi (azimuth) (\u00b0)",
+      "TVD (usft)",
+      "N/S (usft)",
+      "E/W (usft)",
+      "DLeg (\u00b0/100usft)",
+      "V. Sec (usft)",
+      "Closure Distance (usft)",
+      "Closure Azimuth (\u00b0)"
+    ],
+    "stations": [
+      {
+        "md": 14585.0,
+        "inc": 88.42,
+        "azm": 131.61,
+        "tvd": 12772.13,
+        "ns_ft": -476.52,
+        "ew_ft": 2061.58,
+        "flags": []
+      },
+      {
+        "md": 14679.0,
+        "inc": 88.86,
+        "azm": 132.14,
+        "tvd": 12774.36,
+        "ns_ft": -539.25,
+        "ew_ft": 2131.55,
+        "flags": []
+      },
+      {
+        "md": 14773.0,
+        "inc": 89.04,
+        "azm": 134.48,
+        "tvd": 12776.08,
+        "ns_ft": -603.71,
+        "ew_ft": 2199.94,
+        "flags": []
+      },
+      {
+        "md": 14867.0,
+        "inc": 89.17,
+        "azm": 129.56,
+        "tvd": 12777.55,
+        "ns_ft": -666.61,
+        "ew_ft": 2269.74,
+        "flags": []
+      },
+      {
+        "md": 14961.0,
+        "inc": 89.23,
+        "azm": 130.55,
+        "tvd": 12778.86,
+        "ns_ft": -727.09,
+        "ew_ft": 2341.68,
+        "flags": []
+      },
+      {
+        "md": 15055.0,
+        "inc": 88.91,
+        "azm": 128.7,
+        "tvd": 12780.39,
+        "ns_ft": -787.03,
+        "ew_ft": 2414.07,
+        "flags": []
+      },
+      {
+        "md": 15150.0,
+        "inc": 89.98,
+        "azm": 132.59,
+        "tvd": 12781.31,
+        "ns_ft": -848.9,
+        "ew_ft": 2486.13,
+        "flags": []
+      },
+      {
+        "md": 15244.0,
+        "inc": 89.41,
+        "azm": 131.81,
+        "tvd": 12781.81,
+        "ns_ft": -912.04,
+        "ew_ft": 2555.77,
+        "flags": []
+      },
+      {
+        "md": 15338.0,
+        "inc": 89.47,
+        "azm": 130.64,
+        "tvd": 12782.73,
+        "ns_ft": -973.98,
+        "ew_ft": 2626.46,
+        "flags": []
+      },
+      {
+        "md": 15432.0,
+        "inc": 89.6,
+        "azm": 129.52,
+        "tvd": 12783.49,
+        "ns_ft": -1034.5,
+        "ew_ft": 2698.38,
+        "flags": []
+      },
+      {
+        "md": 15526.0,
+        "inc": 88.85,
+        "azm": 129.27,
+        "tvd": 12784.76,
+        "ns_ft": -1094.15,
+        "ew_ft": 2771.02,
+        "flags": []
+      },
+      {
+        "md": 15620.0,
+        "inc": 88.36,
+        "azm": 130.7,
+        "tvd": 12787.05,
+        "ns_ft": -1154.53,
+        "ew_ft": 2843.02,
+        "flags": []
+      },
+      {
+        "md": 15714.0,
+        "inc": 88.36,
+        "azm": 129.72,
+        "tvd": 12789.74,
+        "ns_ft": -1215.19,
+        "ew_ft": 2914.78,
+        "flags": []
+      },
+      {
+        "md": 15808.0,
+        "inc": 88.42,
+        "azm": 128.41,
+        "tvd": 12792.38,
+        "ns_ft": -1274.41,
+        "ew_ft": 2987.73,
+        "flags": []
+      },
+      {
+        "md": 15902.0,
+        "inc": 88.36,
+        "azm": 129.42,
+        "tvd": 12795.02,
+        "ns_ft": -1333.43,
+        "ew_ft": 3060.84,
+        "flags": []
+      },
+      {
+        "md": 15996.0,
+        "inc": 88.98,
+        "azm": 129.33,
+        "tvd": 12797.2,
+        "ns_ft": -1393.05,
+        "ew_ft": 3133.48,
+        "flags": []
+      },
+      {
+        "md": 16090.0,
+        "inc": 88.98,
+        "azm": 129.88,
+        "tvd": 12798.88,
+        "ns_ft": -1452.96,
+        "ew_ft": 3205.89,
+        "flags": []
+      },
+      {
+        "md": 16184.0,
+        "inc": 89.04,
+        "azm": 130.86,
+        "tvd": 12800.5,
+        "ns_ft": -1513.84,
+        "ew_ft": 3277.5,
+        "flags": []
+      },
+      {
+        "md": 16279.0,
+        "inc": 88.42,
+        "azm": 130.36,
+        "tvd": 12802.61,
+        "ns_ft": -1575.66,
+        "ew_ft": 3349.6,
+        "flags": []
+      },
+      {
+        "md": 16373.0,
+        "inc": 88.92,
+        "azm": 131.16,
+        "tvd": 12804.79,
+        "ns_ft": -1637.01,
+        "ew_ft": 3420.78,
+        "flags": []
+      },
+      {
+        "md": 16467.0,
+        "inc": 88.79,
+        "azm": 130.18,
+        "tvd": 12806.67,
+        "ns_ft": -1698.26,
+        "ew_ft": 3492.06,
+        "flags": []
+      },
+      {
+        "md": 16561.0,
+        "inc": 88.79,
+        "azm": 130.36,
+        "tvd": 12808.65,
+        "ns_ft": -1759.01,
+        "ew_ft": 3563.77,
+        "flags": []
+      },
+      {
+        "md": 16655.0,
+        "inc": 88.48,
+        "azm": 130.59,
+        "tvd": 12810.89,
+        "ns_ft": -1820.01,
+        "ew_ft": 3635.25,
+        "flags": []
+      },
+      {
+        "md": 16749.0,
+        "inc": 88.86,
+        "azm": 131.49,
+        "tvd": 12813.07,
+        "ns_ft": -1881.71,
+        "ew_ft": 3706.13,
+        "flags": []
+      },
+      {
+        "md": 16843.0,
+        "inc": 88.86,
+        "azm": 130.47,
+        "tvd": 12814.94,
+        "ns_ft": -1943.34,
+        "ew_ft": 3777.08,
+        "flags": []
+      },
+      {
+        "md": 16937.0,
+        "inc": 88.92,
+        "azm": 130.0,
+        "tvd": 12816.77,
+        "ns_ft": -2004.05,
+        "ew_ft": 3848.83,
+        "flags": []
+      },
+      {
+        "md": 17031.0,
+        "inc": 89.04,
+        "azm": 130.35,
+        "tvd": 12818.44,
+        "ns_ft": -2064.68,
+        "ew_ft": 3920.64,
+        "flags": []
+      }
+    ],
+    "_secs": 11.9,
+    "_usage": {
+      "prompt_tokens": 4773,
+      "total_tokens": 7151,
+      "completion_tokens": 2378,
+      "prompt_tokens_details": null
+    }
+  },
+  {
+    "page": 11,
+    "page_type": "station_table",
+    "api": null,
+    "well_name": "Edith Gray-Schendel USW A 1",
+    "operator": "ConocoPhillips Eagle Ford Gold Data",
+    "north_ref": "Grid",
+    "tool": "MWD",
+    "kb_elevation": "32.5",
+    "datum_zone": "NAD27 State Plane",
+    "report_date": "5/15/2017",
+    "md_range": [
+      17125.0,
+      19571.0
+    ],
+    "columns": [
+      "MD (usft)",
+      "Inc (\u00b0)",
+      "Azi (azimuth) (\u00b0)",
+      "TVD (usft)",
+      "N/S (usft)",
+      "E/W (usft)",
+      "DLeg (\u00b0/100usft)",
+      "V. Sec (usft)",
+      "Closure Distance (usft)",
+      "Closure Azimuth (\u00b0)"
+    ],
+    "stations": [
+      {
+        "md": 17125.0,
+        "inc": 89.41,
+        "azm": 128.9,
+        "tvd": 12819.71,
+        "ns_ft": -2124.62,
+        "ew_ft": 3993.03,
+        "flags": []
+      },
+      {
+        "md": 17220.0,
+        "inc": 88.79,
+        "azm": 128.24,
+        "tvd": 12821.2,
+        "ns_ft": -2183.84,
+        "ew_ft": 4067.3,
+        "flags": []
+      },
+      {
+        "md": 17314.0,
+        "inc": 89.04,
+        "azm": 128.39,
+        "tvd": 12822.98,
+        "ns_ft": -2242.11,
+        "ew_ft": 4141.04,
+        "flags": []
+      },
+      {
+        "md": 17408.0,
+        "inc": 88.48,
+        "azm": 130.55,
+        "tvd": 12825.02,
+        "ns_ft": -2301.85,
+        "ew_ft": 4213.58,
+        "flags": []
+      },
+      {
+        "md": 17502.0,
+        "inc": 88.36,
+        "azm": 131.29,
+        "tvd": 12827.61,
+        "ns_ft": -2363.39,
+        "ew_ft": 4284.58,
+        "flags": []
+      },
+      {
+        "md": 17596.0,
+        "inc": 88.73,
+        "azm": 131.58,
+        "tvd": 12830.0,
+        "ns_ft": -2425.58,
+        "ew_ft": 4355.03,
+        "flags": []
+      },
+      {
+        "md": 17690.0,
+        "inc": 88.48,
+        "azm": 130.7,
+        "tvd": 12832.28,
+        "ns_ft": -2487.4,
+        "ew_ft": 4425.8,
+        "flags": []
+      },
+      {
+        "md": 17784.0,
+        "inc": 88.11,
+        "azm": 130.41,
+        "tvd": 12835.08,
+        "ns_ft": -2548.49,
+        "ew_ft": 4497.19,
+        "flags": []
+      },
+      {
+        "md": 17878.0,
+        "inc": 88.3,
+        "azm": 130.06,
+        "tvd": 12838.03,
+        "ns_ft": -2609.18,
+        "ew_ft": 4568.91,
+        "flags": []
+      },
+      {
+        "md": 17972.0,
+        "inc": 88.74,
+        "azm": 129.64,
+        "tvd": 12840.45,
+        "ns_ft": -2669.39,
+        "ew_ft": 4641.06,
+        "flags": []
+      },
+      {
+        "md": 18066.0,
+        "inc": 88.67,
+        "azm": 128.94,
+        "tvd": 12842.58,
+        "ns_ft": -2728.9,
+        "ew_ft": 4713.79,
+        "flags": []
+      },
+      {
+        "md": 18160.0,
+        "inc": 88.23,
+        "azm": 130.66,
+        "tvd": 12845.12,
+        "ns_ft": -2789.05,
+        "ew_ft": 4785.98,
+        "flags": []
+      },
+      {
+        "md": 18254.0,
+        "inc": 88.42,
+        "azm": 130.83,
+        "tvd": 12847.87,
+        "ns_ft": -2850.37,
+        "ew_ft": 4857.16,
+        "flags": []
+      },
+      {
+        "md": 18349.0,
+        "inc": 88.49,
+        "azm": 131.62,
+        "tvd": 12850.43,
+        "ns_ft": -2912.96,
+        "ew_ft": 4928.59,
+        "flags": []
+      },
+      {
+        "md": 18443.0,
+        "inc": 88.73,
+        "azm": 131.59,
+        "tvd": 12852.71,
+        "ns_ft": -2975.35,
+        "ew_ft": 4998.86,
+        "flags": []
+      },
+      {
+        "md": 18537.0,
+        "inc": 88.73,
+        "azm": 131.07,
+        "tvd": 12854.79,
+        "ns_ft": -3037.42,
+        "ew_ft": 5069.43,
+        "flags": []
+      },
+      {
+        "md": 18631.0,
+        "inc": 88.92,
+        "azm": 129.93,
+        "tvd": 12856.72,
+        "ns_ft": -3098.45,
+        "ew_ft": 5140.89,
+        "flags": []
+      },
+      {
+        "md": 18725.0,
+        "inc": 88.98,
+        "azm": 130.34,
+        "tvd": 12858.44,
+        "ns_ft": -3159.03,
+        "ew_ft": 5212.74,
+        "flags": []
+      },
+      {
+        "md": 18819.0,
+        "inc": 88.85,
+        "azm": 130.42,
+        "tvd": 12860.22,
+        "ns_ft": -3219.92,
+        "ew_ft": 5284.33,
+        "flags": []
+      },
+      {
+        "md": 18913.0,
+        "inc": 88.42,
+        "azm": 130.5,
+        "tvd": 12862.46,
+        "ns_ft": -3280.9,
+        "ew_ft": 5355.83,
+        "flags": []
+      },
+      {
+        "md": 19007.0,
+        "inc": 88.67,
+        "azm": 130.09,
+        "tvd": 12864.85,
+        "ns_ft": -3341.67,
+        "ew_ft": 5427.51,
+        "flags": []
+      },
+      {
+        "md": 19101.0,
+        "inc": 88.55,
+        "azm": 129.65,
+        "tvd": 12867.13,
+        "ns_ft": -3401.91,
+        "ew_ft": 5499.63,
+        "flags": []
+      },
+      {
+        "md": 19195.0,
+        "inc": 88.36,
+        "azm": 129.53,
+        "tvd": 12869.66,
+        "ns_ft": -3461.8,
+        "ew_ft": 5572.04,
+        "flags": []
+      },
+      {
+        "md": 19289.0,
+        "inc": 88.8,
+        "azm": 130.73,
+        "tvd": 12871.99,
+        "ns_ft": -3522.36,
+        "ew_ft": 5643.89,
+        "flags": []
+      },
+      {
+        "md": 19383.0,
+        "inc": 88.98,
+        "azm": 131.84,
+        "tvd": 12873.81,
+        "ns_ft": -3584.37,
+        "ew_ft": 5714.51,
+        "flags": []
+      },
+      {
+        "md": 19477.0,
+        "inc": 88.92,
+        "azm": 131.57,
+        "tvd": 12875.54,
+        "ns_ft": -3646.9,
+        "ew_ft": 5784.68,
+        "flags": []
+      },
+      {
+        "md": 19571.0,
+        "inc": 89.29,
+        "azm": 130.65,
+        "tvd": 12877.01,
+        "ns_ft": -3708.7,
+        "ew_ft": 5855.49,
+        "flags": []
+      }
+    ],
+    "_secs": 11.9,
+    "_usage": {
+      "prompt_tokens": 4773,
+      "total_tokens": 7145,
+      "completion_tokens": 2372,
+      "prompt_tokens_details": null
+    }
+  },
+  {
+    "page": 12,
+    "page_type": "station_table",
+    "api": null,
+    "well_name": "Edith Gray-Schendel USW A 1",
+    "operator": "ConocoPhillips Eagle Ford Gold Data",
+    "north_ref": "Grid",
+    "tool": "MWD",
+    "kb_elevation": "32.5",
+    "datum_zone": "NAD27 State Plane",
+    "report_date": "5/15/2017",
+    "md_range": [
+      19665.0,
+      22112.0
+    ],
+    "columns": [
+      "MD (usft)",
+      "Inc (\u00b0)",
+      "Azi (azimuth) (\u00b0)",
+      "TVD (usft)",
+      "N/S (usft)",
+      "E/W (usft)",
+      "DLeg (\u00b0/100usft)",
+      "V. Sec (usft)",
+      "Closure Distance (usft)",
+      "Closure Azimuth (\u00b0)"
+    ],
+    "stations": [
+      {
+        "md": 19665.0,
+        "inc": 89.16,
+        "azm": 129.57,
+        "tvd": 12878.28,
+        "ns_ft": -3769.25,
+        "ew_ft": 5927.38,
+        "flags": []
+      },
+      {
+        "md": 19758.0,
+        "inc": 89.1,
+        "azm": 127.5,
+        "tvd": 12879.69,
+        "ns_ft": -3827.18,
+        "ew_ft": 6000.11,
+        "flags": []
+      },
+      {
+        "md": 19852.0,
+        "inc": 88.6,
+        "azm": 130.88,
+        "tvd": 12881.58,
+        "ns_ft": -3886.55,
+        "ew_ft": 6072.94,
+        "flags": []
+      },
+      {
+        "md": 19946.0,
+        "inc": 88.61,
+        "azm": 131.23,
+        "tvd": 12883.86,
+        "ns_ft": -3948.27,
+        "ew_ft": 6143.8,
+        "flags": []
+      },
+      {
+        "md": 20040.0,
+        "inc": 87.92,
+        "azm": 128.54,
+        "tvd": 12886.71,
+        "ns_ft": -4008.52,
+        "ew_ft": 6215.89,
+        "flags": []
+      },
+      {
+        "md": 20134.0,
+        "inc": 88.74,
+        "azm": 128.2,
+        "tvd": 12889.45,
+        "ns_ft": -4066.84,
+        "ew_ft": 6289.56,
+        "flags": []
+      },
+      {
+        "md": 20228.0,
+        "inc": 88.98,
+        "azm": 130.51,
+        "tvd": 12891.32,
+        "ns_ft": -4126.43,
+        "ew_ft": 6362.22,
+        "flags": []
+      },
+      {
+        "md": 20322.0,
+        "inc": 88.79,
+        "azm": 129.32,
+        "tvd": 12893.15,
+        "ns_ft": -4186.74,
+        "ew_ft": 6434.31,
+        "flags": []
+      },
+      {
+        "md": 20416.0,
+        "inc": 89.35,
+        "azm": 130.65,
+        "tvd": 12894.68,
+        "ns_ft": -4247.13,
+        "ew_ft": 6506.32,
+        "flags": []
+      },
+      {
+        "md": 20511.0,
+        "inc": 89.54,
+        "azm": 131.98,
+        "tvd": 12895.6,
+        "ns_ft": -4309.84,
+        "ew_ft": 6577.67,
+        "flags": []
+      },
+      {
+        "md": 20605.0,
+        "inc": 89.16,
+        "azm": 131.7,
+        "tvd": 12896.66,
+        "ns_ft": -4372.54,
+        "ew_ft": 6647.69,
+        "flags": []
+      },
+      {
+        "md": 20699.0,
+        "inc": 89.91,
+        "azm": 132.38,
+        "tvd": 12897.43,
+        "ns_ft": -4435.49,
+        "ew_ft": 6717.5,
+        "flags": []
+      },
+      {
+        "md": 20793.0,
+        "inc": 87.97,
+        "azm": 131.04,
+        "tvd": 12899.16,
+        "ns_ft": -4498.02,
+        "ew_ft": 6787.66,
+        "flags": []
+      },
+      {
+        "md": 20887.0,
+        "inc": 88.74,
+        "azm": 126.36,
+        "tvd": 12901.86,
+        "ns_ft": -4556.75,
+        "ew_ft": 6860.97,
+        "flags": []
+      },
+      {
+        "md": 20981.0,
+        "inc": 88.98,
+        "azm": 127.97,
+        "tvd": 12903.73,
+        "ns_ft": -4613.52,
+        "ew_ft": 6935.86,
+        "flags": []
+      },
+      {
+        "md": 21075.0,
+        "inc": 88.85,
+        "azm": 127.67,
+        "tvd": 12905.51,
+        "ns_ft": -4671.15,
+        "ew_ft": 7010.1,
+        "flags": []
+      },
+      {
+        "md": 21169.0,
+        "inc": 89.1,
+        "azm": 130.54,
+        "tvd": 12907.2,
+        "ns_ft": -4730.42,
+        "ew_ft": 7083.02,
+        "flags": []
+      },
+      {
+        "md": 21263.0,
+        "inc": 89.23,
+        "azm": 129.89,
+        "tvd": 12908.57,
+        "ns_ft": -4791.11,
+        "ew_ft": 7154.8,
+        "flags": []
+      },
+      {
+        "md": 21357.0,
+        "inc": 89.04,
+        "azm": 130.88,
+        "tvd": 12909.99,
+        "ns_ft": -4852.01,
+        "ew_ft": 7226.39,
+        "flags": []
+      },
+      {
+        "md": 21452.0,
+        "inc": 88.23,
+        "azm": 129.3,
+        "tvd": 12912.25,
+        "ns_ft": -4913.17,
+        "ew_ft": 7299.04,
+        "flags": []
+      },
+      {
+        "md": 21546.0,
+        "inc": 88.67,
+        "azm": 128.84,
+        "tvd": 12914.79,
+        "ns_ft": -4972.39,
+        "ew_ft": 7371.99,
+        "flags": []
+      },
+      {
+        "md": 21640.0,
+        "inc": 88.23,
+        "azm": 129.88,
+        "tvd": 12917.33,
+        "ns_ft": -5031.98,
+        "ew_ft": 7444.64,
+        "flags": []
+      },
+      {
+        "md": 21735.0,
+        "inc": 88.11,
+        "azm": 131.71,
+        "tvd": 12920.37,
+        "ns_ft": -5094.01,
+        "ew_ft": 7516.53,
+        "flags": []
+      },
+      {
+        "md": 21829.0,
+        "inc": 88.36,
+        "azm": 133.05,
+        "tvd": 12923.26,
+        "ns_ft": -5157.34,
+        "ew_ft": 7585.93,
+        "flags": []
+      },
+      {
+        "md": 21923.0,
+        "inc": 88.36,
+        "azm": 131.3,
+        "tvd": 12925.95,
+        "ns_ft": -5220.43,
+        "ew_ft": 7655.56,
+        "flags": []
+      },
+      {
+        "md": 22018.0,
+        "inc": 88.3,
+        "azm": 129.01,
+        "tvd": 12928.72,
+        "ns_ft": -5281.66,
+        "ew_ft": 7728.13,
+        "flags": []
+      },
+      {
+        "md": 22112.0,
+        "inc": 88.3,
+        "azm": 130.59,
+        "tvd": 12931.51,
+        "ns_ft": -5341.8,
+        "ew_ft": 7800.32,
+        "flags": []
+      }
+    ],
+    "_secs": 11.9,
+    "_usage": {
+      "prompt_tokens": 4773,
+      "total_tokens": 7143,
+      "completion_tokens": 2370,
+      "prompt_tokens_details": null
+    }
+  },
+  {
+    "page": 13,
+    "page_type": "station_table",
+    "api": null,
+    "well_name": "Edith Gray-Schendel USW A 1",
+    "operator": "ConocoPhillips Eagle Ford Gold Data",
+    "north_ref": "grid",
+    "tool": "MWD",
+    "kb_elevation": "32.5",
+    "datum_zone": "NAD27 State Plane",
+    "report_date": "5/15/2017",
+    "md_range": [
+      22206.0,
+      22690.0
+    ],
+    "columns": [
+      "MD (usft)",
+      "Inc (\u00b0)",
+      "Azi (azimuth) (\u00b0)",
+      "TVD (usft)",
+      "N/S (usft)",
+      "E/W (usft)",
+      "DLeg (\u00b0/100usft)",
+      "V. Sec (usft)",
+      "Closure Distance (usft)",
+      "Closure Azimuth (\u00b0)"
+    ],
+    "stations": [
+      {
+        "md": 22206.0,
+        "inc": 88.3,
+        "azm": 132.35,
+        "tvd": 12934.3,
+        "ns_ft": -5404.02,
+        "ew_ft": 7870.72,
+        "flags": []
+      },
+      {
+        "md": 22301.0,
+        "inc": 88.05,
+        "azm": 132.62,
+        "tvd": 12937.33,
+        "ns_ft": -5468.15,
+        "ew_ft": 7940.74,
+        "flags": []
+      },
+      {
+        "md": 22395.0,
+        "inc": 88.3,
+        "azm": 130.49,
+        "tvd": 12940.32,
+        "ns_ft": -5530.47,
+        "ew_ft": 8011.04,
+        "flags": []
+      },
+      {
+        "md": 22489.0,
+        "inc": 88.98,
+        "azm": 130.17,
+        "tvd": 12942.55,
+        "ns_ft": -5591.29,
+        "ew_ft": 8082.68,
+        "flags": []
+      },
+      {
+        "md": 22584.0,
+        "inc": 90.6,
+        "azm": 132.81,
+        "tvd": 12942.9,
+        "ns_ft": -5654.21,
+        "ew_ft": 8153.83,
+        "flags": []
+      },
+      {
+        "md": 22664.0,
+        "inc": 89.52,
+        "azm": 130.54,
+        "tvd": 12942.82,
+        "ns_ft": -5707.4,
+        "ew_ft": 8213.58,
+        "flags": []
+      },
+      {
+        "md": 22690.0,
+        "inc": 89.52,
+        "azm": 130.54,
+        "tvd": 12943.03,
+        "ns_ft": -5724.3,
+        "ew_ft": 8233.34,
+        "flags": []
+      }
+    ],
+    "_secs": 4.2,
+    "_usage": {
+      "prompt_tokens": 4773,
+      "total_tokens": 5553,
+      "completion_tokens": 780,
+      "prompt_tokens_details": null
+    }
+  },
+  {
+    "page": 14,
+    "page_type": "header",
+    "api": null,
+    "well_name": "Edith Gray-Schendel USW A 1",
+    "operator": "ConocoPhillips Eagle Ford Gold Data",
+    "north_ref": "grid",
+    "tool": null,
+    "kb_elevation": "32.5",
+    "datum_zone": "NAD27 State Plane",
+    "report_date": "05/15/2017",
+    "md_range": [
+      null,
+      null
+    ],
+    "columns": [],
+    "stations": [],
+    "_secs": 1.1,
+    "_usage": {
+      "prompt_tokens": 4773,
+      "total_tokens": 4907,
+      "completion_tokens": 134,
+      "prompt_tokens_details": null
+    }
+  }
+]

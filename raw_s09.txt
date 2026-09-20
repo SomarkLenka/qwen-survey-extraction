@@ -1,0 +1,15 @@
+{
+  "page": 9,
+  "page_type": "plat",
+  "api": "42-177-32508",
+  "well_name": "BURROW 1H",
+  "operator": "Paloma Resources LLC",
+  "north_ref": "grid",
+  "tool": "MWD",
+  "kb_elevation": null,
+  "datum_zone": "NAD27 State Plane",
+  "report_date": "12/28/2010",
+  "md_range": [0, 19166],
+  "columns": ["POINT", "BEARING", "DISTANCE"],
+  "stations": []
+}

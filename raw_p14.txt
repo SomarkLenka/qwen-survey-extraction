@@ -1,0 +1,15 @@
+{
+  "page": 14,
+  "page_type": "header",
+  "api": null,
+  "well_name": "Edith Gray-Schendel USW A 1",
+  "operator": "ConocoPhillips Eagle Ford Gold Data",
+  "north_ref": "grid",
+  "tool": null,
+  "kb_elevation": "32.5",
+  "datum_zone": "NAD27 State Plane",
+  "report_date": "05/15/2017",
+  "md_range": [null, null],
+  "columns": [],
+  "stations": []
+}

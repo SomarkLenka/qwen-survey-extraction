@@ -1,0 +1,25 @@
+{
+  "page": 3,
+  "page_type": "plat",
+  "api": null,
+  "well_name": "EDITH GRAY-SCHENDEL USW A #1",
+  "operator": "BURLINGTON RESOURCES O & G CO LP",
+  "north_ref": "grid",
+  "tool": null,
+  "kb_elevation": null,
+  "datum_zone": "NAD27 State Plane, South Central Zone, US",
+  "report_date": "09/26/2016",
+  "md_range": [22690, 22690],
+  "columns": ["MD", "TVD", "AZIMUTH"],
+  "stations": [
+    {
+      "md": 22690,
+      "inc": null,
+      "azm": 12943.03,
+      "tvd": 12943.03,
+      "ns_ft": null,
+      "ew_ft": null,
+      "flags": ["illegible"]
+    }
+  ]
+}
